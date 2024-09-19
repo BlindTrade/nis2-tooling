@@ -330,7 +330,7 @@ app.get('/vulnerabilities/:assetId', (req, res) => {
 // Get vulnerability Data from NVD API
 async function getVulnerabilitiesForAsset(assetId) {
     return new Promise((resolve, reject) => {
-        const apiKey = '9740c48c-3451-45d5-a03c-51510ae56d1a';
+        const apiKey = 'your-api-key';
 
         // Query the database for the asset type based on the asset ID
         const assetTypeQuery = `
